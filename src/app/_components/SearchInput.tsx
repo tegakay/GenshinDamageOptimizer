@@ -13,6 +13,7 @@ export const SearchInput = () => {
     if (uid.trim() !== "") {
       router.push(`/u/${encodeURIComponent(uid)}`); // Redirect to page with query param
     }
+    //Handle blank input on click
   };
   return (
     <div className="flex flex-row gap-3">
